@@ -1,0 +1,62 @@
+body {
+
+
+background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+background-color: darkgreen;
+background-size: 13px, 29px, 37px, 53px;
+/* background-image: url("table1.jpg");
+background-size: cover ; */
+
+}
+
+h1 {
+  /* color: rgb(255, 205, 78); */
+  color: goldenrod;
+  font-size: 100px;
+  font-weight: bolder;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+  text-shadow: 5px;
+}
+p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+  align-content: center;
+  text-align: center;
+}
+.andar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.andar:hover{
+    color: brown;
+}
+#message {
+    margin-bottom: 20px;
+}
+button {
+    background-color: goldenrod;
+    color: darkgreen;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    border: none;
+    margin-left: 195px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: darkgreen;
+    color: goldenrod;
+
+}
